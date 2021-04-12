@@ -10,8 +10,8 @@ import NavBar from './NavBar'
 
 export default function TopBar() {
     const images = [
-        '../image/header/slider1.jpg',
-        '../image/header/slider2.jpg'
+        './promoUpMusic/image/header/slider1.jpg',
+        './promoUpMusic/image/header/slider2.jpg'
     ];
     
     return (

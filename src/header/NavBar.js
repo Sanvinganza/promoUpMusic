@@ -68,7 +68,7 @@ export default function navBar() {
       <AppBar position="static" className={classes.root}>
         <Toolbar>
           <div className="classes.logoHorizontallyCenter">
-            <img src={'../image/logoPromoUp.png'} className={classes.logo} alt="logo" />
+            <img src={'./promoUpMusic/image/logoPromoUp.png'} className={classes.logo} alt="logo" />
           </div>
           
           <Typography className={classes.menuItems}>
