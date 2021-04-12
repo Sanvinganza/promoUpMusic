@@ -4,8 +4,8 @@ import BackgroundSlider from 'react-background-slider';
 export default function backgroundSlider(){
     
     const images = [
-        './promoUpMusic/image/header/slider1.jpg',
-        './promoUpMusic/image/header/slider2.jpg'
+        '../image/header/slider1.jpg',
+        '../image/header/slider2.jpg'
     ];
 
     return(

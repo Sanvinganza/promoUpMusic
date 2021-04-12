@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Button, Typography, Toolbar, makeStyles, Link, useMediaQuery } from '@material-ui/core';
+import { AppBar, Button, Typography, Toolbar, makeStyles, Link, /*useMediaQuery*/ } from '@material-ui/core';
 
 export default function navBar() {
   const classes = makeStyles((theme) => ({

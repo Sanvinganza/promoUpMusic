@@ -7,9 +7,9 @@ import NavBar from './NavBar'
 // import { AppBar,Toolbar,IconButton,Typography,InputBase,Badge,MenuItem } from '@material-ui/core';
 // import { MenuIcon,Menu,SearchIcon,AccountCircle,MailIcon,
 //          NotificationsIcon,MoreIcon } from '@material-ui/icons/Menu';
-
 export default function TopBar() {
     const images = [
+        // './header/slider1.jpg',
         './promoUpMusic/image/header/slider1.jpg',
         './promoUpMusic/image/header/slider2.jpg'
     ];
