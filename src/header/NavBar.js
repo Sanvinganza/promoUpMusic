@@ -5,7 +5,7 @@ export default function navBar() {
   const classes = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      backgroundColor: 'black',
+      backgroundColor: 'red',
       justifyContent: 'space-between',
       
     },
