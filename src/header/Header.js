@@ -1,25 +1,17 @@
-import React, { Fragment } from 'react';
-import BackgroundSlider from 'react-background-slider';
-import NavBar from './NavBar'
-// import HeaderItem from './HeaderItems/HeaderItem';
-// import Slider from './backgroundSlider/backgroundSlider';
-// import { fade, makeStyles } from '@material-ui/core/styles';
-// import { AppBar,Toolbar,IconButton,Typography,InputBase,Badge,MenuItem } from '@material-ui/core';
-// import { MenuIcon,Menu,SearchIcon,AccountCircle,MailIcon,
-//          NotificationsIcon,MoreIcon } from '@material-ui/icons/Menu';
+import React from 'react';
+import NavBar from './NavBar';
+// import {makeStyles} from '@material-ui/core/styles';
+
 export default function TopBar() {
-    const images = [
-        // './header/slider1.jpg',
-        './image/header/slider1.jpg',
-        './image/header/slider2.jpg'
-    ];
-    
+    // const classes = makeStyles((theme) => ({
+    //     title :{
+
+    //     }
+    //   }))();
     return (
         <>
             <NavBar />
-            <BackgroundSlider
-            images={images}
-            duration={2} transition={2} />
+            <img alt='' src='./image/header/bgHeader.jpg' width='100%'/>
         </>
     );
 }
