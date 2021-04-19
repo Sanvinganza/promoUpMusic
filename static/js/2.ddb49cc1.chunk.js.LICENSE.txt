@@ -5,14 +5,6 @@ object-assign
 */
 
 /**
-   * CSS Vendor prefix detection and property feature testing.
-   *
-   * @copyright Oleg Slobodskoi 2015
-   * @website https://github.com/jsstyles/css-vendor
-   * @license MIT
-   */
-
-/**
  * A better abstraction over CSS.
  *
  * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
