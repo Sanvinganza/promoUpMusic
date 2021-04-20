@@ -9,7 +9,7 @@ export default function TopBar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundImage: `url(promoUpMusic/image/header/bgHeader.jpg)`,
+            backgroundImage: `url(image/header/bgHeader.jpg)`,
             height: '700px',
             backgroundColor:'rgba(0,0,0,.3)'
         },
