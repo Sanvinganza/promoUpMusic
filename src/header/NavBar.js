@@ -1,4 +1,4 @@
-import { AppBar, Typography, Toolbar, Link/*, useMediaQuery*/ } from '@material-ui/core';
+import { AppBar, Typography, Toolbar, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import BurgerMenu from './BurgerMenu';
 import useMediaQuery from '../useMediaQuery';
@@ -42,7 +42,7 @@ export default function NavBar() {
     },
     menuItems: {
       display: 'flex',
-      justifyContent: 'center',
+      justifyContent: 'flex-end',
       width: '100%'
     },
     menuItem: {
@@ -69,7 +69,7 @@ export default function NavBar() {
       <AppBar position="static" className={styleNavbar.root}>
         <Toolbar>
           <div className="styleNavbar.logoHorizontallyCenter">
-            <img src={'./image/logoPromoUp.png'} className={styleNavbar.logo} alt="logo" />
+            <img src={'./promoUpMusic/image/logoPromoUp.png'} className={styleNavbar.logo} alt="logo" />
           </div>
           {matches ? 
           <Typography className={styleNavbar.menuItems}>
