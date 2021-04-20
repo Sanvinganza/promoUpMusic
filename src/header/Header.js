@@ -16,7 +16,7 @@ export default function TopBar() {
         text: {
             fontWeight: '600',
             color: 'white',
-            fontSize: '3em',
+            fontSize: '2.5em',
             textShadow: '1px 2px 2px black, 0 0 1em grey'  
         },
         buttonGroup: {
