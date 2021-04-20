@@ -19,7 +19,7 @@ export default function MainBlocks() {
         },  
         block: {
             display: 'flex',
-            width: '30em',
+            width: '24em',
             height: '286px',
             padding: '1em',
             boxShadow: '0 0 15px black, 0 0 2px grey',
