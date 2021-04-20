@@ -19,7 +19,7 @@ export default function MainBlocks() {
         },  
         block: {
             display: 'flex',
-            width: '39%',
+            width: '30em',
             height: '286px',
             padding: '1em',
             boxShadow: '0 0 15px black, 0 0 2px grey',
@@ -34,7 +34,7 @@ export default function MainBlocks() {
         },
         describe: {
             flex: '2',
-            fontSize: '0.85em'
+            fontSize: '0.75em'
         },
         text: {
             textAlign: 'justify'
