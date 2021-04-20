@@ -1,5 +1,5 @@
 import { AppBar, Typography, Toolbar, Link } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import makeStyles from '@material-ui/core/styles/makeStyles';
 import BurgerMenu from './BurgerMenu';
 import useMediaQuery from '../useMediaQuery';
 
