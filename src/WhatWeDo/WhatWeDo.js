@@ -1,11 +1,11 @@
 import Describe from './Describe';
-import Contant from './Contant';
+import Content from './Content';
 
 export default function WhatWeDo() {
     return (
         <>
             <Describe />
-            <Contant />
+            <Content />
         </>
     )
 }

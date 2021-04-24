@@ -1,21 +1,16 @@
 import makeStyles from '@material-ui/core/styles/makeStyles';
 
 export default function MainBlocks() {
-    const titles = [`STRATEGY`, `CREATIVE`, `SOCIAL MEDIA ADVERTISING`, `INFLUENCER MARKETING`];
-    const iconsURL = ['promoUpMusic/image/WhatWeDo/progress.svg',
-                      './promoUpMusic/image/WhatWeDo/video.svg',
-                      './promoUpMusic/image/WhatWeDo/social_networks.svg',
-                      './promoUpMusic/image/WhatWeDo/3st_man.svg'];
-
     const classes = makeStyles((theme) => ({
         body: {
             display: 'flex',
             justifyContent: 'center',
             flexFlow: 'row wrap',
             marginTop: '7em',
-            marginLeft: '1em',
-            marginRight: '1em',
-            alignContent: 'flex-start'
+            marginLeft: '8.5vw',
+            marginRight: '8.5vw',
+            alignContent: 'flex-start',
+            marginBottom: '3em'
         },  
         block: {
             display: 'flex',
