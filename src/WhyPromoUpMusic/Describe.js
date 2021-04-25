@@ -8,11 +8,12 @@ export default function Describe(){
         },
         title: {
             fontWeight: '600',
-            fontSize: '2.5em',
+            fontSize: '3.5em',
         },
         describe: {
             fontSize: '1.4em',
-            paddingTop: '4em'
+            paddingTop: '2em',
+            maxWidth: '600px'
         }
       }))();
       
@@ -20,8 +21,8 @@ export default function Describe(){
         <>
             <center>
                 <div className={classes.body}>
-                    <div className={classes.title}>Why <br/> promoUPmusic?</div>
-                    <div className={classes.describe}>Spreading your music outreach to the <br/> world of opportunities</div>    
+                    <div className={classes.title}>Why promoUPmusic?</div>
+                    <div className={classes.describe}>Spreading your music outreach to the world of opportunities</div>    
                 </div>
             </center>
         </>

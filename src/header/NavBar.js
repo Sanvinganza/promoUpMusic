@@ -71,29 +71,31 @@ export default function NavBar() {
           <div className="styleNavbar.logoHorizontallyCenter">
             <img src={'./image/logoPromoUp.png'} className={styleNavbar.logo} alt="logo" />
           </div>
-          {matches ? 
-          <Typography className={styleNavbar.menuItems}>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            What we do
-          </Link>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            Cases
-          </Link>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            Services
-          </Link>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            Why us
-          </Link>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            Pricing
-          </Link>
-          <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
-            Contacts
-          </Link>
-        </Typography> 
-          :
-          <BurgerMenu />}
+         
+          {matches ?
+            <Typography className={styleNavbar.menuItems}>
+              <Link href="#HowWeCanHelpYou" className={styleNavbar.menuItem} onClick={preventDefault}>
+                What we do
+              </Link>
+              <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
+                Cases
+              </Link>
+              <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
+                Services
+              </Link>
+              <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
+                Why us
+              </Link>
+              <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
+                Pricing
+              </Link>
+              <Link href="#" className={styleNavbar.menuItem} onClick={preventDefault}>
+                Contacts
+              </Link>
+            </Typography>
+            :
+            <BurgerMenu />}
+
         </Toolbar>
       </AppBar>
     </>
