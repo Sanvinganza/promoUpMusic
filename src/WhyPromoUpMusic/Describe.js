@@ -5,6 +5,7 @@ export default function Describe(){
         body: {
             paddingTop: '5em',
             color: 'white',
+            textShadow: '1px 2px 2px black, 0 0 1em grey'  
         },
         title: {
             fontWeight: '600',

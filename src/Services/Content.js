@@ -34,14 +34,14 @@ export default function Content(){
                 <div className={classes.containerInner}>
                     <div className={matches? classes.row: classes.column}>
                         <div>
-                            <img src={'promoUpMusic/image/Services/spotify.png'} className={classes.icon} alt="" />
-                            <img src={'promoUpMusic/image/Services/facebook.png'} className={classes.icon} alt="" />
-                            <img src={'promoUpMusic/image/Services/youtube.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/spotify.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/facebook.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/youtube.png'} className={classes.icon} alt="" />
                         </div>
                         <div>
-                            <img src={'promoUpMusic/image/Services/soundcloud.png'} className={classes.icon} alt="" />
-                            <img src={'promoUpMusic/image/Services/instagram.png'} className={classes.icon} alt="" />
-                            <img src={'promoUpMusic/image/Services/tik-tok.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/soundcloud.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/instagram.png'} className={classes.icon} alt="" />
+                            <img src={'image/Services/tik-tok.png'} className={classes.icon} alt="" />
                         </div>
                     </div>
                 </div>

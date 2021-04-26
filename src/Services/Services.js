@@ -6,7 +6,7 @@ export default function Services(){
     const classes = makeStyles((theme) => ({
         root: {
             backgroundImage: `white`,
-            height: '850px',
+            height: '600px',
         }
       }))();
 
