@@ -24,7 +24,7 @@ export default function Content() {
             color: 'white'
         },
         icon: {
-            height:'9vw',
+            height: '9vw',
             width: '9vw'
         },
         title: {
@@ -49,29 +49,28 @@ export default function Content() {
     return (
         <>
             <div className={classes.container}>
+                    <div className={classes.containerInner}>
 
-                <div className={matches? classes.containerInner : classes.containerInnerColumn}>
+                        <div className={classes.block}>
+                            <img src={'promoUpMusic/image/WhyPromoUpMusic/social-media.png'} className={classes.icon} alt="" />
+                            <div className={classes.title}>No fraud & No bots</div>
+                            <div className={classes.discribe}>Using only official platforms and reporting for extra transparency. With our expertise and network, we gain only real views and organic engagement from your audience.</div>
+                        </div>
+
+                        <div className={classes.block}>
+                            <img src={'promoUpMusic/image/WhyPromoUpMusic/headphones.png'} className={classes.icon} alt="" />
+                            <div className={classes.title}>Team of pros</div>
+                            <div className={classes.discribe}>We are experienced and certified digital marketers, which means our services don't end up on the Google Search box. Daily updates with the latest news from digital space are what keeps us in the flow.</div>
+                        </div>
+
+                        <div className={classes.block}>
+                            <img src={'promoUpMusic/image/WhyPromoUpMusic/business-report.png'} className={classes.icon} alt="" />
+                            <div className={classes.title}>Campaign reporting</div>
+                            <div className={classes.discribe}>It's not only about hitting the numbers on your socials but know how to read the result of the reports. Hence, we analyze, compare and contrast, evaluate and plan your next strategic steps.</div>
+                        </div>
+
+                    </div>
                 
-                    <div className={classes.block}>
-                        <img src={'promoUpMusic/image/WhyPromoUpMusic/social-media.png'} className={classes.icon} alt="" />
-                        <div className={classes.title}>No fraud & No bots</div>
-                        <div className={classes.discribe}>Using only official platforms and reporting for extra transparency. With our expertise and network, we gain only real views and organic engagement from your audience.</div>
-                    </div>
-
-                    <div className={classes.block}>
-                        <img src={'promoUpMusic/image/WhyPromoUpMusic/headphones.png'} className={classes.icon} alt="" />
-                        <div className={classes.title}>Team of pros</div>
-                        <div className={classes.discribe}>We are experienced and certified digital marketers, which means our services don't end up on the Google Search box. Daily updates with the latest news from digital space are what keeps us in the flow.</div>
-                    </div>
-
-                    <div className={classes.block}>
-                        <img src={'promoUpMusic/image/WhyPromoUpMusic/business-report.png'} className={classes.icon} alt="" />
-                        <div className={classes.title}>Campaign reporting</div>
-                        <div className={classes.discribe}>It's not only about hitting the numbers on your socials but know how to read the result of the reports. Hence, we analyze, compare and contrast, evaluate and plan your next strategic steps.</div>
-                    </div>
-
-                </div>
-
             </div>
         </>
     )

@@ -2,10 +2,10 @@ import makeStyles from '@material-ui/core/styles/makeStyles';
 import Describe from './Describe'
 import Content from './Content'
 
-export default function WhyPromoUpMusic(){
+export default function OurClientsLiveUs(){
     const classes = makeStyles((theme) => ({
         root: {
-            backgroundImage: `url(promoUpMusic/image/WhyPromoUpMusic/background.jpg)`,
+            backgroundImage: `white`,
             height: '850px',
         }
       }))();
