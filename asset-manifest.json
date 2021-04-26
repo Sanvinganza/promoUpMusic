@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/promoUpMusic/static/css/main.ac35c5f8.chunk.css",
-    "main.js": "/promoUpMusic/static/js/main.d343714a.chunk.js",
-    "main.js.map": "/promoUpMusic/static/js/main.d343714a.chunk.js.map",
+    "main.js": "/promoUpMusic/static/js/main.f078816c.chunk.js",
+    "main.js.map": "/promoUpMusic/static/js/main.f078816c.chunk.js.map",
     "runtime-main.js": "/promoUpMusic/static/js/runtime-main.bb34382d.js",
     "runtime-main.js.map": "/promoUpMusic/static/js/runtime-main.bb34382d.js.map",
     "static/css/2.6b560088.chunk.css": "/promoUpMusic/static/css/2.6b560088.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.6b560088.chunk.css",
     "static/js/2.f7ce87a2.chunk.js",
     "static/css/main.ac35c5f8.chunk.css",
-    "static/js/main.d343714a.chunk.js"
+    "static/js/main.f078816c.chunk.js"
   ]
 }
