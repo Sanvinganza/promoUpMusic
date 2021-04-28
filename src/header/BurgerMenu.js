@@ -6,8 +6,8 @@ const styleBurgerMenu = {
         position: 'fixed',
         width: '36px',
         height: '30px',
-        right: '36px',
-        top: '30px',
+        right: '24px',
+        top: '24px',
         color: 'grey',
     },
     bmBurgerBars: {
@@ -24,13 +24,14 @@ const styleBurgerMenu = {
         display: 'none',
     },
     bmMenuWrap: {
-        top: '84px',
         position: 'fixed',
         height: 'auto',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         width: 'auto',
+        zIndex: '100',
+        top: '0px',
     },
     bmMenu: {
         background: 'black',
