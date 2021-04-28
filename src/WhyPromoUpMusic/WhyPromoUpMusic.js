@@ -1,21 +1,22 @@
+import React from 'react';
 import makeStyles from '@material-ui/core/styles/makeStyles';
-import Describe from './Describe'
-import Content from './Content'
+import Describe from './Describe';
+import Content from './Content';
 
-export default function WhyPromoUpMusic(){
-    const classes = makeStyles((theme) => ({
+export default function WhyPromoUpMusic() {
+    const classes = makeStyles(() => ({
         root: {
-            backgroundImage: `url(promoUpMusic/image/WhyPromoUpMusic/background.jpg)`,
+            backgroundImage: 'url(image/WhyPromoUpMusic/background.jpg)',
             height: '850px',
-        }
-      }))();
+        },
+    }))();
 
-    return(
+    return (
         <>
             <div className={classes.root}>
-                <Describe/>
-                <Content/>
+                <Describe />
+                <Content />
             </div>
         </>
-    )
+    );
 }

@@ -1,13 +1,20 @@
+import React from 'react';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 
-export default function Content(){
-    const classes = makeStyles((theme) => ({
-        
-    }))();
+const style = makeStyles(() => ({
+    root: {
 
-    return(
+    },
+}));
+
+export default function Content() {
+    const classes = style();
+
+    return (
         <>
-
+            <div className={classes.root}>
+                1
+            </div>
         </>
-    )
+    );
 }
