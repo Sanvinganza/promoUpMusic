@@ -4,70 +4,71 @@ import { Carousel } from 'react-responsive-carousel';
 import useMediaQuery from '../useMediaQuery';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
+const style = makeStyles(() => ({
+    container: {
+        paddingTop: '5em',
+        justifyContent: 'center',
+        textShadow: '1px 2px 2px black, 0 0 1em grey',
+    },
+    containerInner: {
+        flexDirection: 'row',
+        display: 'flex',
+        maxWidth: '1200px',
+    },
+    block: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        margin: '0 2em 0 2em',
+        color: 'white',
+    },
+    icon: {
+        height: '9vw',
+        width: '9vw',
+    },
+    title: {
+        paddingTop: '1em',
+        fontSize: '1.8vw',
+        fontWeight: '500',
+    },
+    discribe: {
+        color: '#ddd',
+        paddingTop: '1em',
+        fontSize: '1.3vw',
+        textAlign: 'center',
+        maxWidth: '25vw',
+    },
+    containerInnerColumn: {
+        display: 'flex',
+        maxWidth: '1200px',
+        flexDirection: 'column',
+    },
+    blockCarousel: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        color: 'white',
+    },
+    iconCarousel: {
+        width: '96px !important',
+        height: '96px',
+    },
+    titleCarousel: {
+        fontSize: '1.8em',
+        fontWeight: '500',
+        padding: '5px',
+    },
+    discribeCarousel: {
+        width: '80vw',
+    },
+}));
+
 export default function Content() {
     const matches = useMediaQuery('(min-width: 600px)');
 
-    const classes = makeStyles(() => ({
-        container: {
-            paddingTop: '5em',
-            display: 'flex',
-            justifyContent: 'center',
-            textShadow: '1px 2px 2px black, 0 0 1em grey',
-        },
-        containerInner: {
-            flexDirection: 'row',
-            display: 'flex',
-            maxWidth: '1200px',
-        },
-        block: {
-            display: 'flex',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            alignItems: 'center',
-            margin: '0 2em 0 2em',
-            color: 'white',
-        },
-        icon: {
-            height: '9vw',
-            width: '9vw',
-        },
-        title: {
-            paddingTop: '1em',
-            fontSize: '1.8vw',
-            fontWeight: '500',
-        },
-        discribe: {
-            color: '#ddd',
-            paddingTop: '1em',
-            fontSize: '1.3vw',
-            textAlign: 'center',
-            maxWidth: '25vw',
-        },
-        containerInnerColumn: {
-            display: 'flex',
-            maxWidth: '1200px',
-            flexDirection: 'column',
-        },
-        blockCarousel: {
-            display: 'flex',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            alignItems: 'center',
-            color: 'white',
-        },
-        iconCarousel: {
-            width: '96px !important',
-            height: '96px',
-        },
-        titleCarousel: {
-            fontSize: '1.8em',
-            fontWeight: '500',
-            padding: '5px',
-        },
-        discribeCarousel: {
-            width: '80vw',
-        },
-    }))();
+    const classes = style();
 
     return (
         <>
