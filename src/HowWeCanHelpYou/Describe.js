@@ -8,7 +8,7 @@ const style = makeStyles(() => ({
     },
     title: {
         fontWeight: '600',
-        fontSize: '2.5em',
+        fontSize: '5.5vw',
     },
     describe: {
         marginTop: '2em',

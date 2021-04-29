@@ -9,13 +9,13 @@ const style = makeStyles(() => ({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundImage: 'url(./image/header/bgHeader.jpg)',
-        height: '700px',
+        height: '80vw',
         backgroundColor: 'rgba(0,0,0,.3)',
     },
     text: {
         fontWeight: '600',
         color: 'white',
-        fontSize: '2.5em',
+        fontSize: '5.5vw',
         textShadow: '1px 2px 2px black, 0 0 1em grey',
     },
     buttonGroup: {

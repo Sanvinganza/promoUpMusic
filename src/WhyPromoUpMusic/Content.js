@@ -2,7 +2,7 @@ import React from 'react';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import { Carousel } from 'react-responsive-carousel';
 import useMediaQuery from '../useMediaQuery';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const style = makeStyles(() => ({
     container: {
@@ -107,7 +107,7 @@ export default function Content() {
                                 showIndicators={false}
                                 showThumbs={false}
                                 infiniteLoop
-                                interval='2000'
+                                interval='3000'
                             >
                                 <div>
                                     <div className={classes.blockCarousel}>

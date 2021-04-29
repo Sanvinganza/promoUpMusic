@@ -10,10 +10,10 @@ export default function Describe() {
         },
         title: {
             fontWeight: '600',
-            fontSize: '3.5em',
+            fontSize: '6.5vw',
         },
         describe: {
-            fontSize: '1.4em',
+            fontSize: '3.5vw',
             paddingTop: '2em',
             maxWidth: '600px',
         },

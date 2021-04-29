@@ -26,6 +26,5 @@
         "max-len": 0,
         "react/no-unescaped-entities": 0,
         "react/jsx-indent-props": ["error", 4]
-
     }
 }

@@ -18,19 +18,6 @@ const style = makeStyles(() => ({
     abStatic: {
         border: 'solid blue 2px',
     },
-    ButtonContacts: {
-        borderRadius: '80px',
-        backgroundColor: 'white',
-        color: 'black',
-        fontSize: '12px',
-        fontFamily: 'bold',
-        paddingLeft: '15px',
-        paddingRight: '15px',
-        '&:hover': {
-            backgroundColor: '#898989',
-            color: 'white',
-        },
-    },
     logo: {
         textAlign: 'center',
         maxWidth: '80px',
@@ -51,7 +38,7 @@ const style = makeStyles(() => ({
         color: 'white',
         marginLeft: '12px',
         marginRight: '12px',
-        fontSize: '1.3em',
+        fontSize: '2vw',
         '&:hover': {
             textDecorationLine: 'none',
             color: '#797997',
