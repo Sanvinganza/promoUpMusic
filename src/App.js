@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import WhatWeDo from './HowWeCanHelpYou/HowWeCanHelpYou';
 import WhyPromoUpMusic from './WhyPromoUpMusic/WhyPromoUpMusic';
 import Services from './Services/Services';
+import OurClientsLiveUs from './OurClientsLiveUs/OurClientsLiveUs';
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                 </Fade>
                 <Fade>
                     <Services />
+                </Fade>
+                <Fade>
+                    <OurClientsLiveUs />
                 </Fade>
             </header>
         </div>

@@ -3,7 +3,7 @@ import makeStyles from '@material-ui/core/styles/makeStyles';
 
 const style = makeStyles(() => ({
     body: {
-        marginTop: '8em',
+        marginTop: '5vw',
         color: 'black',
     },
     title: {
@@ -12,7 +12,7 @@ const style = makeStyles(() => ({
     },
     describe: {
         marginTop: '2em',
-        fontSize: '1.4em',
+        fontSize: '3.5vw',
     },
 }));
 

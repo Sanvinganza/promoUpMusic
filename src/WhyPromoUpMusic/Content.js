@@ -6,7 +6,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const style = makeStyles(() => ({
     container: {
-        paddingTop: '5em',
+        display: 'flex',
+        paddingTop: '8vw',
         justifyContent: 'center',
         textShadow: '1px 2px 2px black, 0 0 1em grey',
     },
@@ -62,11 +63,12 @@ const style = makeStyles(() => ({
     },
     discribeCarousel: {
         width: '80vw',
+        fontSize: '',
     },
 }));
 
 export default function Content() {
-    const matches = useMediaQuery('(min-width: 600px)');
+    const matches = useMediaQuery('(min-width: 800px)');
 
     const classes = style();
 

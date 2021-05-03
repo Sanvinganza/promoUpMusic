@@ -7,7 +7,7 @@ export default function WhyPromoUpMusic() {
     const classes = makeStyles(() => ({
         root: {
             backgroundImage: 'url(image/WhyPromoUpMusic/background.jpg)',
-            height: '850px',
+            height: '75vw',
         },
     }))();
 

@@ -4,7 +4,7 @@ import makeStyles from '@material-ui/core/styles/makeStyles';
 export default function Describe() {
     const classes = makeStyles(() => ({
         body: {
-            paddingTop: '5em',
+            paddingTop: '8vw',
             color: 'white',
             textShadow: '1px 2px 2px black, 0 0 1em grey',
         },

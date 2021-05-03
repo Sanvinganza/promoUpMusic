@@ -5,8 +5,8 @@ import Content from './Content';
 
 const style = makeStyles(() => ({
     root: {
-        backgroundImage: 'white',
-        height: '850px',
+        backgroundImage: 'url("https://thumb.tildacdn.com/tild3632-6662-4166-b164-663261373962/-/format/webp/pexels-pixabay-21076.jpg")',
+        height: '80vw',
     },
 }));
 
