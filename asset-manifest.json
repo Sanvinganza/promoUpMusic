@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/promoUpMusic/static/css/main.ac35c5f8.chunk.css",
-    "main.js": "/promoUpMusic/static/js/main.8f386bb8.chunk.js",
-    "main.js.map": "/promoUpMusic/static/js/main.8f386bb8.chunk.js.map",
-    "runtime-main.js": "/promoUpMusic/static/js/runtime-main.ac395856.js",
-    "runtime-main.js.map": "/promoUpMusic/static/js/runtime-main.ac395856.js.map",
-    "static/css/2.6b560088.chunk.css": "/promoUpMusic/static/css/2.6b560088.chunk.css",
-    "static/js/2.5f70f636.chunk.js": "/promoUpMusic/static/js/2.5f70f636.chunk.js",
-    "static/js/2.5f70f636.chunk.js.map": "/promoUpMusic/static/js/2.5f70f636.chunk.js.map",
-    "static/js/3.3f4f9dd9.chunk.js": "/promoUpMusic/static/js/3.3f4f9dd9.chunk.js",
-    "static/js/3.3f4f9dd9.chunk.js.map": "/promoUpMusic/static/js/3.3f4f9dd9.chunk.js.map",
+    "main.js": "/promoUpMusic/static/js/main.e45ec143.chunk.js",
+    "main.js.map": "/promoUpMusic/static/js/main.e45ec143.chunk.js.map",
+    "runtime-main.js": "/promoUpMusic/static/js/runtime-main.5a758fcf.js",
+    "runtime-main.js.map": "/promoUpMusic/static/js/runtime-main.5a758fcf.js.map",
+    "static/css/2.3d343a8a.chunk.css": "/promoUpMusic/static/css/2.3d343a8a.chunk.css",
+    "static/js/2.3cc38d0c.chunk.js": "/promoUpMusic/static/js/2.3cc38d0c.chunk.js",
+    "static/js/2.3cc38d0c.chunk.js.map": "/promoUpMusic/static/js/2.3cc38d0c.chunk.js.map",
+    "static/js/3.c88f3398.chunk.js": "/promoUpMusic/static/js/3.c88f3398.chunk.js",
+    "static/js/3.c88f3398.chunk.js.map": "/promoUpMusic/static/js/3.c88f3398.chunk.js.map",
     "index.html": "/promoUpMusic/index.html",
-    "static/css/2.6b560088.chunk.css.map": "/promoUpMusic/static/css/2.6b560088.chunk.css.map",
+    "static/css/2.3d343a8a.chunk.css.map": "/promoUpMusic/static/css/2.3d343a8a.chunk.css.map",
     "static/css/main.ac35c5f8.chunk.css.map": "/promoUpMusic/static/css/main.ac35c5f8.chunk.css.map",
-    "static/js/2.5f70f636.chunk.js.LICENSE.txt": "/promoUpMusic/static/js/2.5f70f636.chunk.js.LICENSE.txt"
+    "static/js/2.3cc38d0c.chunk.js.LICENSE.txt": "/promoUpMusic/static/js/2.3cc38d0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac395856.js",
-    "static/css/2.6b560088.chunk.css",
-    "static/js/2.5f70f636.chunk.js",
+    "static/js/runtime-main.5a758fcf.js",
+    "static/css/2.3d343a8a.chunk.css",
+    "static/js/2.3cc38d0c.chunk.js",
     "static/css/main.ac35c5f8.chunk.css",
-    "static/js/main.8f386bb8.chunk.js"
+    "static/js/main.e45ec143.chunk.js"
   ]
 }
