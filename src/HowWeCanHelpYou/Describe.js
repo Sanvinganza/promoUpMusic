@@ -8,11 +8,11 @@ const style = makeStyles(() => ({
     },
     title: {
         fontWeight: '600',
-        fontSize: '5.5vw',
+        fontSize: '3.5vw',
     },
     describe: {
         marginTop: '2em',
-        fontSize: '3.5vw',
+        fontSize: '1.4vw',
     },
 }));
 

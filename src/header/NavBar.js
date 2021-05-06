@@ -38,7 +38,7 @@ const style = makeStyles(() => ({
         color: 'white',
         marginLeft: '12px',
         marginRight: '12px',
-        fontSize: '2vw',
+        fontSize: '1.4vw',
         '&:hover': {
             textDecorationLine: 'none',
             color: '#797997',
@@ -54,7 +54,7 @@ export default function NavBar() {
     const classes = style();
 
     const preventDefault = (event) => event.preventDefault();
-    const matches = useMediaQuery('(min-width: 800px)');
+    const matches = useMediaQuery('(min-width: 600px)');
 
     return (
         <>

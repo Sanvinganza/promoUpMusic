@@ -29,7 +29,7 @@ const style = makeStyles(() => ({
     },
     describe: {
         flex: '2',
-        fontSize: '0.75em',
+        fontSize: '0.85em',
     },
     text: {
         textAlign: 'justify',

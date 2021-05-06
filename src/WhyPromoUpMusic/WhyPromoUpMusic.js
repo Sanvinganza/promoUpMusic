@@ -8,6 +8,8 @@ export default function WhyPromoUpMusic() {
         root: {
             backgroundImage: 'url(image/WhyPromoUpMusic/background.jpg)',
             height: '75vw',
+            minHeight: '480px',
+            minWidth: '400px',
         },
     }))();
 

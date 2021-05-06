@@ -42,7 +42,7 @@ const style = makeStyles(() => ({
     },
     containerInnerColumn: {
         display: 'flex',
-        maxWidth: '1200px',
+        maxWidth: '600px',
         flexDirection: 'column',
     },
     blockCarousel: {
@@ -63,12 +63,14 @@ const style = makeStyles(() => ({
     },
     discribeCarousel: {
         width: '80vw',
-        fontSize: '',
+    },
+    carousel: {
+        maxWidth: '400px',
     },
 }));
 
 export default function Content() {
-    const matches = useMediaQuery('(min-width: 800px)');
+    const matches = useMediaQuery('(min-width: 700px)');
 
     const classes = style();
 
@@ -110,6 +112,7 @@ export default function Content() {
                                 showThumbs={false}
                                 infiniteLoop
                                 interval='3000'
+                                className={classes.carousel}
                             >
                                 <div>
                                     <div className={classes.blockCarousel}>
